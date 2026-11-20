@@ -230,6 +230,10 @@ tools:
     owner: iuc
     tool_panel_section_label: Annotation
 
+  - name: fair_bioheaders_metadata
+    owner: iuc
+    tool_panel_section_label: Annotation
+
   - name: fair_bioheaders_verify
     owner: iuc
     tool_panel_section_label: Annotation
@@ -386,6 +390,10 @@ tools:
     owner: iuc
     tool_panel_section_label: Annotation
 
+  - name: lc_classify
+    owner: iuc
+    tool_panel_section_label: Annotation
+
   - name: mge_cluster
     owner: iuc
     tool_panel_section_label: Annotation
@@ -481,6 +489,54 @@ tools:
   - name: mtnucratio
     owner: iuc
     tool_panel_section_label: "FASTQ Quality Control"
+
+  - name: sincei_scscorefeatures
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: sincei_scplotregion
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: sincei_scjsd
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: sincei_scfindvcrs
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: sincei_scfilterstats
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: sincei_scfilterbarcodes
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: sincei_scexportsignal
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: sincei_sccountreads_features
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: sincei_sccountreads_bins
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: sincei_sccountqc
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: sincei_sccombinecounts
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: sincei_scbulkcoverage
+    owner: iuc
+    tool_panel_section_label: Annotation
 
   - name: smoothxg
     owner: iuc
@@ -1255,6 +1311,10 @@ tools:
     owner: iuc
     tool_panel_section_label: Assembly
 
+  - name: skesa
+    owner: iuc
+    tool_panel_section_label: Assembly
+
   - name: smudgeplot
     owner: galaxy-australia
     tool_panel_section_label: Assembly
@@ -1574,6 +1634,22 @@ tools:
     tool_panel_section_label: Convert Formats
 
   - name: ucsc_axttomaf
+    owner: iuc
+    tool_panel_section_label: Convert Formats
+
+  - name: ucsc_gff3togenepred
+    owner: iuc
+    tool_panel_section_label: Convert Formats
+
+  - name: ucsc_genepredtobed
+    owner: iuc
+    tool_panel_section_label: Convert Formats
+
+  - name: ucsc_fatotwobit
+    owner: iuc
+    tool_panel_section_label: Convert Formats
+
+  - name: ucsc_bedtobigbed
     owner: iuc
     tool_panel_section_label: Convert Formats
 
@@ -2040,6 +2116,18 @@ tools:
     tool_panel_section_label: FASTA/FASTQ
 
   - name: qfilt
+    owner: iuc
+    tool_panel_section_label: FASTA/FASTQ
+
+  - name: seqfu_stats
+    owner: iuc
+    tool_panel_section_label: FASTA/FASTQ
+
+  - name: seqfu_count
+    owner: iuc
+    tool_panel_section_label: FASTA/FASTQ
+
+  - name: seqfu_check
     owner: iuc
     tool_panel_section_label: FASTA/FASTQ
 
@@ -2578,6 +2666,10 @@ tools:
     owner: devteam
     tool_panel_section_label: Graph/Display Data
 
+  - name: ucsc_hubcheck
+    owner: iuc
+    tool_panel_section_label: Graph/Display Data
+
   - name: upsetplot
     owner: iuc
     tool_panel_section_label: Graph/Display Data
@@ -3071,6 +3163,10 @@ tools:
     owner: iuc
     tool_panel_section_label: Metagenomic Analysis
 
+  - name: hgt_site
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
+
   - name: kaiju_addtaxonnames
     owner: iuc
     tool_panel_section_label: Metagenomic Analysis
@@ -3102,6 +3198,26 @@ tools:
     owner: iuc
     tool_panel_section_label: Metagenomic Analysis
 
+  - name: mothur_sparcc
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
+
+  - name: mothur_merge_otus
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
+
+  - name: mothur_make_clr
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
+
+  - name: mothur_kruskal_wallis
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
+
+  - name: mothur_estimator_single
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
+
   - name: mothur_taxonomy_to_krona
     owner: iuc
     tool_panel_section_label: Metagenomic Analysis
@@ -3127,6 +3243,10 @@ tools:
     tool_panel_section_label: Metagenomic Analysis
 
   - name: metamdbg_asm
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
+
+  - name: multi_omics_classification
     owner: iuc
     tool_panel_section_label: Metagenomic Analysis
 
@@ -5773,6 +5893,10 @@ tools:
     owner: iuc
     tool_panel_section_label: Phylogenetics
 
+  - name: rhizaeon
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
   - name: sarscov2formatter
     owner: iuc
     tool_panel_section_label: Phylogenetics
@@ -5786,6 +5910,10 @@ tools:
     tool_panel_section_label: Phylogenetics
 
   - name: snp_sites
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: trace50
     owner: iuc
     tool_panel_section_label: Phylogenetics
 
@@ -5961,6 +6089,10 @@ tools:
     owner: iuc
     tool_panel_section_label: RNA Analysis
 
+  - name: bambu
+    owner: iuc
+    tool_panel_section_label: RNA Analysis
+
   - name: barrnap
     owner: iuc
     tool_panel_section_label: RNA Analysis
@@ -6058,6 +6190,10 @@ tools:
     tool_panel_section_label: RNA Analysis
 
   - name: dexseq
+    owner: iuc
+    tool_panel_section_label: RNA Analysis
+
+  - name: dupradar
     owner: iuc
     tool_panel_section_label: RNA Analysis
 
@@ -6678,6 +6814,22 @@ tools:
     owner: iuc
     tool_panel_section_label: Single-cell
 
+  - name: scdblfinder
+    owner: iuc
+    tool_panel_section_label: Single-cell
+
+  - name: sccellfie_plotting
+    owner: iuc
+    tool_panel_section_label: Single-cell
+
+  - name: sccellfie_pipeline
+    owner: iuc
+    tool_panel_section_label: Single-cell
+
+  - name: sccellfie_analysis
+    owner: iuc
+    tool_panel_section_label: Single-cell
+
   - name: sceasy_convert
     owner: iuc
     tool_panel_section_label: Single-cell
@@ -7061,6 +7213,14 @@ tools:
     owner: iuc
     tool_panel_section_label: Text Manipulation
 
+  - name: compare_param_value
+    owner: iuc
+    tool_panel_section_label: Text Manipulation
+
+  - name: combine_boolean_params
+    owner: iuc
+    tool_panel_section_label: Text Manipulation
+
   - name: dos2unix
     owner: iuc
     tool_panel_section_label: Text Manipulation
@@ -7095,6 +7255,10 @@ tools:
 
   - name: intersect
     owner: devteam
+    tool_panel_section_label: Text Manipulation
+
+  - name: invert_boolean_param
+    owner: iuc
     tool_panel_section_label: Text Manipulation
 
   - name: join
@@ -7756,11 +7920,23 @@ tools:
     owner: iuc
     tool_panel_section_label: Variant Calling
 
+  - name: survivor
+    owner: iuc
+    tool_panel_section_label: Variant Calling
+
   - name: swiftlink
     owner: iuc
     tool_panel_section_label: Variant Calling
 
   - name: structureharvester
+    owner: iuc
+    tool_panel_section_label: Variant Calling
+
+  - name: tiddit_sv
+    owner: iuc
+    tool_panel_section_label: Variant Calling
+
+  - name: tiddit_cov
     owner: iuc
     tool_panel_section_label: Variant Calling
 

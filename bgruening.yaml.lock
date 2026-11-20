@@ -93,6 +93,11 @@ tools:
   - 5ad32046903b
   - f6fa7e70120f
   tool_panel_section_label: Convert Formats
+- name: tei_converter
+  owner: bgruening
+  revisions:
+  - 438878a60b0e
+  tool_panel_section_label: Convert Formats
 - name: uniprot_rest_interface
   owner: bgruening
   revisions:
@@ -298,6 +303,7 @@ tools:
   - 6d8444408ff1
   - 6d8be3337e2a
   - 80b0055ba314
+  - a069e75a344f
   - a6318f87f2cd
   - abba05ead5d7
   - d6ede73082da
@@ -432,7 +438,7 @@ tools:
   - 291923e6f276
   - 3e4f8642c77e
   - 3ee0ef312022
-  - 53d3fd8fca8d
+  - 5b21fbc080f2
   - 643e0ff70be5
   - 8d4f03b5fe9d
   - cb8dfd28c16f
@@ -501,6 +507,7 @@ tools:
   owner: bgruening
   revisions:
   - 3dd6be0cd8dd
+  - 743f687633f3
   - 8c99976de71e
   - a34826ae0a73
   - b61022e1b807
@@ -540,6 +547,76 @@ tools:
   owner: bgruening
   revisions:
   - f8cdbaef8b95
+  tool_panel_section_label: Digital Humanities
+- name: mfa_validate_dictionary
+  owner: bgruening
+  revisions:
+  - 0f22112bd42f
+  tool_panel_section_label: Digital Humanities
+- name: mfa_validate
+  owner: bgruening
+  revisions:
+  - 74350cc6d7b3
+  tool_panel_section_label: Digital Humanities
+- name: mfa_train_tokenizer
+  owner: bgruening
+  revisions:
+  - 777432aef34f
+  tool_panel_section_label: Digital Humanities
+- name: mfa_train_lm
+  owner: bgruening
+  revisions:
+  - 7373dd65ba3a
+  tool_panel_section_label: Digital Humanities
+- name: mfa_train_g2p
+  owner: bgruening
+  revisions:
+  - 3a31427a9614
+  tool_panel_section_label: Digital Humanities
+- name: mfa_train_dictionary
+  owner: bgruening
+  revisions:
+  - e8e980390873
+  tool_panel_section_label: Digital Humanities
+- name: mfa_train
+  owner: bgruening
+  revisions:
+  - c4b780d5261f
+  tool_panel_section_label: Digital Humanities
+- name: mfa_tokenize
+  owner: bgruening
+  revisions:
+  - 43ea1999e12f
+  tool_panel_section_label: Digital Humanities
+- name: mfa_remap_alignments
+  owner: bgruening
+  revisions:
+  - c20358328484
+  tool_panel_section_label: Digital Humanities
+- name: mfa_merge
+  owner: bgruening
+  revisions:
+  - ba12e1f955c6
+  tool_panel_section_label: Digital Humanities
+- name: mfa_g2p
+  owner: bgruening
+  revisions:
+  - a621816189e0
+  tool_panel_section_label: Digital Humanities
+- name: mfa_find_oovs
+  owner: bgruening
+  revisions:
+  - 29c6f44e2d31
+  tool_panel_section_label: Digital Humanities
+- name: mfa_align
+  owner: bgruening
+  revisions:
+  - f79b354ba4c0
+  tool_panel_section_label: Digital Humanities
+- name: mfa_adapt
+  owner: bgruening
+  revisions:
+  - 493244fcb6ab
   tool_panel_section_label: Digital Humanities
 - name: new_fave_extract
   owner: bgruening
@@ -582,6 +659,7 @@ tools:
   owner: bgruening
   revisions:
   - 433db23e1c1d
+  - 7462caed7065
   - b94789823aad
   - cd7e644cae1d
   - eefb644655a5
@@ -664,6 +742,7 @@ tools:
   - 0c99fafe841d
   - 32e076a33f8f
   - 4b51d3803987
+  - 9e203dd2311c
   - a5b16cf86c02
   - a9559f8990b9
   - bd474d8124e3
@@ -684,6 +763,7 @@ tools:
   owner: bgruening
   revisions:
   - ab9b0561b285
+  - d3d6fac76d11
   tool_panel_section_label: GIS Data Handling
 - name: 3dtrees_metadata
   owner: bgruening
@@ -847,10 +927,20 @@ tools:
   revisions:
   - fc43cdc81408
   tool_panel_section_label: Imaging
+- name: cross_encoder_rerank
+  owner: bgruening
+  revisions:
+  - 43a1aeb8dcd4
+  tool_panel_section_label: Machine Learning
 - name: dna_foundation_models
   owner: bgruening
   revisions:
   - 2e7bab5007f5
+  tool_panel_section_label: Machine Learning
+- name: embed_faiss_search
+  owner: bgruening
+  revisions:
+  - 5aa10a5ec0c4
   tool_panel_section_label: Machine Learning
 - name: keras_batch_models
   owner: bgruening
@@ -1384,6 +1474,7 @@ tools:
   owner: bgruening
   revisions:
   - 01b0fcc50e74
+  - 43e7a80b327e
   tool_panel_section_label: Machine Learning
 - name: flexynesis
   owner: bgruening
@@ -1481,6 +1572,7 @@ tools:
   revisions:
   - 21ee409e6cde
   - 3e22bda128be
+  - 4c6c819d5acb
   - 7939ae8c5fd5
   tool_panel_section_label: Machine Learning
 - name: simorgh
@@ -1654,10 +1746,16 @@ tools:
   - bec636361cfd
   - de5b3d8f5b90
   tool_panel_section_label: Nanopore
+- name: 3dtrees_raster
+  owner: bgruening
+  revisions:
+  - a4ac600a17e9
+  tool_panel_section_label: Other Tools
 - name: 3dtrees_sidecar
   owner: bgruening
   revisions:
   - 515dc574a2bf
+  - d5a67f827fb8
   tool_panel_section_label: Other Tools
 - name: pynxtools_peak_finding
   owner: bgruening
